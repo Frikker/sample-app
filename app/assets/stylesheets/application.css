@@ -53,7 +53,7 @@ a{
 }
 /*menu*/
 #menu{
-    background: image("menubar.png");
+    background: #787878;
     min-height: 40px;
 }
 
