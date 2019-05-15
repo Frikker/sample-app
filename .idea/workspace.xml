@@ -47,7 +47,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="182" />
+          <entry key="css" value="206" />
           <entry key="erb" value="1008" />
           <entry key="html" value="42" />
           <entry key="rb" value="74" />
@@ -55,7 +55,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="182" />
+          <entry key="CSS" value="206" />
           <entry key="HTML" value="42" />
           <entry key="RHTML" value="1008" />
           <entry key="Ruby" value="74" />
@@ -104,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="69">
+              <caret line="3" column="77" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -115,6 +115,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>boots</find>
+      <find>url</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -370,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11569000" />
+    <option name="totallyTimeSpent" value="11730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -526,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="69">
+          <caret line="3" column="77" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="77" />
         </state>
       </provider>
     </entry>
