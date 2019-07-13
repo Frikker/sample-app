@@ -1,74 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= yield(:title)%> | Ruby on Rails Tutorial Sample App</title>
+    <title><%= full_title(yield(:title))%></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+        </script>
+    <![endif]-->
   </head>
-
   <body>
-    <div id="page_wrapper">
-
-      <header id="header">
-        <div class="container">
-          <div id="logo">
-          <a href="#"><p><img src="/static/icon.svg" alt="Название компании" height="100" width="100"></p></a>
-        </div>
-        <div id="contact_info">
-          <ul>
-            <li>Skype: stolpnikk.97@gmail.com</li>
-            <li>e-mail: stolpnikk.97@gmail.com</li>
-            <li>Tel: +7(964)166-25-54</li>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "sample app", '#', id: "logo" %>
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Home", '#' %></li>
+            <li><%= link_to "Help", '#' %></li>
+            <li><%= link_to "Log In", '#' %></li>
           </ul>
-        </div>
+        </nav>
       </div>
-      </header>
-      <div id="menu">
-        <div class="container">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">About</a></li>
-            <!--<li><a href="#">Прайс-лист</a></li>
-            <li><a href="#">Контакты</a></li>-->
-          </ul>
-        </div>
-      </div>
-      <div id="content">
-        <div class="container">
-          <div id="sidebar" >
-          </div>
-          <div id="filling">
-            <%= yield %>
-          </div>
-        </div>
-      </div>
-      <div id="footer">
-        <div class="container">
-          <div id="copyright">
-            © 2012–2013 ЗАО «Компания»<br>info@name.ru
-          </div>
-          <div id="link">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Help</a></li>
-              <li><a href="#">About</a></li>
-              <!--<li><a href="#">Прайс-лист</a></li>
-              <li><a href="#">Контакты</a></li>-->
-            </ul>
-          </div>
-          <div id="creator">
-            <div id="creator_logo">
-              <p><img src="./images/site_elite.png" align="left">
-                <a href="#">Разработка сайта</a> — компания «Site Elite»
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
     </div>
   </body>
 </html>
