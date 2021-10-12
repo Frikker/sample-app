@@ -3,7 +3,7 @@ ruby('2.5.3')
 gem 'rails',        '5.2.3'
 gem 'bootstrap-sass','3.4.1'
 gem 'bcrypt',       '3.1.13'
-gem 'puma',         '3.12.2'
+gem 'puma',         '4.3.9'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.2.0'
 gem 'coffee-rails', '4.2.2'
